@@ -103,9 +103,9 @@ footer {
 }
 
 .feedback-message {
-  margin: 12px 0;
-  padding: 10px 12px;
-  color: #222;
-  background: #eeeeee;
-  border-left: 4px solid #555;
+  margin: 10px 0;
+  padding: 10px 10px;
+  color: black;
+  background-color: white;
+  border: 5px black;
 }
