@@ -1,5 +1,5 @@
 function handleRSVP() {
-  if (document.querySelector("feedback-message")) {
+  if (!document.querySelector(".feedback-message")) {
     const message = document.createElement("p");
     message.textContent = "You're on the list — see you there!";
     message.classList.add("feedback-message");
