@@ -8,3 +8,10 @@ function handleRSVP() {
     rsvpButton.after(message);
   }
 }
+
+let likes = 0;
+
+function likeBtn() {
+  likes = likes++;
+  document.getElementById("likeBtn").textContent("likes: " + likes)
+}
