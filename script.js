@@ -12,6 +12,6 @@ function handleRSVP() {
 let likes = 0;
 
 function likeButton() {
-  likes = likes + 1;
-  document.getElementById("likeBtn").textContent("likes: " + likes)
+  likes = likes ++;
+  document.getElementById("likeBtn").textContent = "likes: " + likes
 }
